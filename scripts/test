@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -ex
+
+brew update
+brew install Formula/celocli.rb
+brew test celocli
+celocli --version
+celocli --help
+celocli commands

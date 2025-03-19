@@ -1,0 +1,18 @@
+name: Node CI Suite
+
+on:
+  push:
+    branches: main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Homebrew/actions/setup-homebrew@master
+
+      - run: brew update
+      - run: brew cleanup
+      - run: ./scripts/test
