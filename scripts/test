@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -ex
+
+brew update
+brew install Formula/celocli.rb
+brew test celocli
+celocli --version
+celocli --help
+celocli commands
+celocli account:new --language=french
+celocli account:new
+celocli network:whitelist --node mainnet
