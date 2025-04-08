@@ -1,27 +1,27 @@
 class Celocli < Formula
   desc "CLI Tool for interacting with the Celo protocol"
   homepage "https://docs.celo.org/cli"
-  url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.1/celocli-v6.2.1-a52643b35-darwin-x64.tar.xz"
-  sha256 "17cbdbef4763e1abb607d01e6d7b7d349bf0fefdb66c95665cc7c30fa9c54290"
-  version "6.2.1"
+  url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.2/celocli-v6.2.2-48f9c7f46-darwin-x64.tar.xz"
+  sha256 "ea5837867be0248942eacb428f1c5cc4e5078567468462b66197fdde378f6bd1"
+  version "6.2.2"
   license "Apache-2.0"
   version_scheme 1
 
   on_macos do
     on_arm do
-      url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.1/celocli-v6.2.1-a52643b35-darwin-arm64.tar.xz"
-      sha256 "dd979bd64e2298408a0c7e1c55e6b63dead3e1bd929f2282cc634c829ee69f19"
+      url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.2/celocli-v6.2.2-48f9c7f46-darwin-arm64.tar.xz"
+      sha256 "839ef8325127460e1937cfe40ce858fed520798e05ae4e0b28f723161e734cae"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.1/celocli-v6.2.1-a52643b35-linux-x64.tar.xz"
-      sha256 "1365b1cf27813443297dc573175559d5651802cdf99c1d901b9fc1b51c0a3aed"
+      url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.2/celocli-v6.2.2-48f9c7f46-linux-x64.tar.xz"
+      sha256 "eb8bc0f218da08003e2676cdc541c59f718752ed1a5d32f984bcb9d11bf7df9c"
     end
     on_arm do
-      url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.1/celocli-v6.2.1-a52643b35-linux-arm.tar.xz"
-      sha256 "fd7ea936a74f34ed2904b672d0ad5fe9f8c2a7c421d9bb3cb673d6cd58c7c1dc"
+      url "https://github.com/celo-org/developer-tooling/releases/download/%40celo%2Fcelocli%406.2.2/celocli-v6.2.2-48f9c7f46-linux-arm.tar.xz"
+      sha256 "04ef39938f071db9c6c7378f7866c3dc72b4f6bc43856f9782dc551a25cdda61"
     end
   end
 
